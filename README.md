@@ -24,6 +24,13 @@ Start up your server.
 
 Point your browser to http://localhost:3000 and check out your stunning new Rails dashboard!
 
+## Database
+To initialize the database, run:
+```
+rake db:create
+rake db:setup
+```
+
 ## Diving into the codebase
 For a deep-dive into the codebase, and a demo walking you through how to customize it, check out [the article on DinoSaaS](https://www.dinosaas.com/articles/starter-app-1-argon).
 
