@@ -14,6 +14,8 @@ Download the right gems with the right versions (as specified in the `Gemfile`).
 
 `bundle install`
 
+If you have troubles downloading dependencies, delete your local `Gemfile.lock` file and re-run `bundle install`.
+
 Update Yarn packages as specified in `package.json`.
 
 `yarn install`
